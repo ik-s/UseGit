@@ -26,7 +26,7 @@ main에 branch를 합치고 싶다 => 기준 브랜치로 이동
 git merge coupon : 같은 곳을 수정하면 conflict가 일어날 수 있음  
 해결법 : 원하는 코드만 남기고 add, commit  
 git branch -M main : git branch 이름을 main으로 함  
-
+git checkout -b "브랜치명" : 작업 브랜치 생성 + 이동
 
 <h3>다양한 git merge 방법</h3>
 <img width="567" height="375" alt="image" src="https://github.com/user-attachments/assets/2913750b-27c0-4e6e-a894-ca9afe7d5634" />  
