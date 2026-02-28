@@ -28,7 +28,7 @@ git remote add origin "원격저장소 주소"
 main에 branch를 합치고 싶다 => 기준 브랜치로 이동   
 git merge coupon : 같은 곳을 수정하면 conflict가 일어날 수 있음  
 해결법 : 원하는 코드만 남기고 add, commit  
-git branch -M main : git branch 이름을 main으로 함  
+git branch -M master main : git branch 이름을 master에서 main으로 변경함  
 git checkout -b "브랜치명" : 작업 브랜치 생성 + 이동
 
 <h3>다양한 git merge 방법</h3>
